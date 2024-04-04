@@ -4,6 +4,7 @@ import org.example.cache.exceptions.NotFoundException;
 import org.example.cache.exceptions.StorageFullException;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 public class HashMapBasedStorage<Key, Value> implements Storage<Key, Value> {
@@ -12,7 +13,7 @@ public class HashMapBasedStorage<Key, Value> implements Storage<Key, Value> {
 
     public HashMapBasedStorage(Integer capacity) {
         this.capacity = capacity;
-        storage = new HashMap<>();
+        storage = new Hashtable<>();
     }
 
     @Override

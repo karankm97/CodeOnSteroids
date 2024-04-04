@@ -48,3 +48,21 @@ public class Queue {
         }
     }
 }
+
+/*
+Node: 2 x: -1 y: 1 pos: 1
+Node: 3 x: 1 y: 1 pos: 2
+Node: 4 x: -2 y: 0 pos: 3
+Node: 6 x: 0 y: 0 pos: 4
+Node: 5 x: 0 y: 2 pos: 5
+Node: 7 x: 2 y: 2 pos: 6
+*/
+
+/*
+Node: 2 x: -1 y: 1 pos: 1
+Node: 3 x: 1 y: 1 pos: 2
+Node: 4 x: -2 y: 2 pos: 3
+Node: 6 x: 0 y: 2 pos: 4
+Node: 5 x: 0 y: 2 pos: 5
+Node: 7 x: 2 y: 2 pos: 6
+ */
