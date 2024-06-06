@@ -22,7 +22,7 @@ public class Main {
 
         queue.publish(topic1, new Message("m1"));
         queue.publish(topic1, new Message("m2"));
-
+x
         queue.publish(topic2, new Message("m3"));
 
         Thread.sleep(15000);

@@ -39,7 +39,8 @@ public class HashMapImpl<K, V> {
         hashTable = new Entry[tableSize];
     }
 
-    final int tableSizeFor(int cap) {
+    static final int tableSizeFor(int cap) {
+        //for a capcity returns the size of hashmap
         int n = cap-1;
         n |= n>>1;
         n |= n>>2;
@@ -102,5 +103,8 @@ public class HashMapImpl<K, V> {
 //
 //
 //    }
+    public static void main(String []args) {
+        tableSizeFor(1000);
+    }
 
 }

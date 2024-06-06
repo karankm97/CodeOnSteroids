@@ -48,7 +48,7 @@ public class BookingService {
         final Booking newBooking = new Booking(bookingId, show, userId, seats);
         showBookings.put(bookingId, newBooking);
         return newBooking;
-        // TODO: create time for booking expiry
+        // TODO: create time for booking expiry (instigate thread?)
     }
 
     public List<Seat> getBookedSeats(@NonNull final Show show) {

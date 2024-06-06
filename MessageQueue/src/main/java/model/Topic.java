@@ -20,7 +20,7 @@ public class Topic {
         this.subscribers = new ArrayList<>();
     }
 
-    public synchronized  void addMessage(@NonNull final Message message) {
+    public synchronized void addMessage(@NonNull final Message message) {
         messages.add(message);
     }
 
